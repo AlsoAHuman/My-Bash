@@ -49,7 +49,7 @@ HISTFILESIZE=2000
         else
             # Open the media search engine with the search term
             echo "Opening search engine for: $search_term"
-            if ! open "https://watch.qtchaos.de/browse/$search_term"; then
+            if ! open "https://www.vidbinge.com/browse/$search_term"; then
                 echo "Failed to open the URL in the default web browser."
             fi
         fi
